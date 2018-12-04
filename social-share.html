@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Share Widget</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- @@ Importing Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- @@ Importing BootStrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+</head>
+
+<center>
+<div class="jumbotron">
+  <h1><i class="fa fa-heart" aria-hidden="true"></i> Sharing Is Caring
+ ...</h1> </br>
+<div class="card-deck mb-3 social text-center">
+        <div class="card card-whatsapp mb-3 shadow-sm">
+          <div class="card-body">
+            <a href="https://api.whatsapp.com/send?text=https://github.com/mdsaban"><p> <i class="fa fa-whatsapp" aria-hidden="true"></i></br> <h4>Share On WhatsApp</h4> </p></a>
+          </div>
+        </div>
+        <div class="card card-fb mb-3 shadow-sm">
+          <div class="card-body">
+            <a href="http://www.facebook.com/sharer.php?u=https://github.com/mdsaban" target="_blank""><p> <i class="fa fa-facebook-official" aria-hidden="true"></i></br> <h4>Share on FB</h4> </p></a>
+          </div>
+        </div>
+        <div class="card card-email mb-3 shadow-sm">
+          <div class="card-body">
+            <a href="mailto:?subject=Your Sub&amp;body=Share This https://github.com/mdsaban"><p> <i class="fa fa-envelope" aria-hidden="true"></i></br> <h4>Share via Email</h4></p></a>
+          </div>
+        </div>
+        <div class="card card-sms mb-3 shadow-sm">
+          <div class="card-body">
+            <a href="sms:?body=#"><p> <i class="fa fa-commenting" aria-hidden="true"></i></br> <h4>Share via SMS</h4></p></a>
+          </div>
+        </div>
+</div>
+</div>
+</center>
+
+<style>
+body{background: #e9ecef;}
+a:hover{text-decoration: none;}
+.fa-heart{ color:#d43636 ; }
+.fa-whatsapp{ color:#01E675; font-size:60px; }
+.fa-commenting{color:#db3236; font-size:60px;}
+.fa-envelope{ font-size: 60px; color: #f4c20d;}
+.fa-facebook-official{ font-size: 60px; color:#4267b2;}
+
+.card-whatsapp:hover{ background:#01E675; }
+.card-whatsapp:hover .fa-whatsapp{color:#fff;}
+.card-fb:hover{ background:#4267b2; }
+.card-fb:hover .fa-facebook-official{color:#fff;}
+.card-sms:hover{ background:#db3236; }
+.card-sms:hover .fa-commenting{color:#fff;}
+.card-email:hover{background: #f4c20d;}
+.card-email:hover .fa-envelope{color: #fff;}
+.card-whatsapp:hover h4 , .card-fb:hover h4,.card-sms:hover h4, .card-email:hover h4{ color:#fff; }
+
+.card:hover {
+    box-shadow: 0 35px 70px 0 rgba(0,0,0,0.5) !important;
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+</style>
+</center>
